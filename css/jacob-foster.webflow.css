@@ -157,7 +157,7 @@ a.w--current {
   display: -ms-flexbox;
   display: flex;
   width: 75%;
-  margin-top: 25px;
+  margin-top: 50px;
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
@@ -166,10 +166,28 @@ a.w--current {
   align-self: center;
 }
 
+.site-link {
+  width: 25%;
+  padding: 15px;
+  border: 1px solid #fff;
+  -webkit-transition: background-color 600ms ease;
+  transition: background-color 600ms ease;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+}
+
+.site-link:hover {
+  background-color: rgba(0, 0, 0, .25);
+}
+
 .site-link.w--current {
   width: auto;
   min-width: 45%;
   padding: 10px;
+  border: 1px solid #fff;
   -webkit-transition: background-color 600ms ease-in;
   transition: background-color 600ms ease-in;
   font-family: Lato, sans-serif;
