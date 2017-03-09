@@ -1,0 +1,196 @@
+a {
+  text-decoration: underline;
+}
+
+a.w--current {
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.body {
+  overflow: hidden;
+  height: 100%;
+  background-image: -webkit-linear-gradient(290deg, #698f90, #0d2d46);
+  background-image: linear-gradient(160deg, #698f90, #0d2d46);
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.name {
+  position: static;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 4em;
+  line-height: 1em;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.introduction {
+  display: block;
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.hello {
+  display: block;
+  padding-bottom: 0px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-style: normal;
+  font-weight: 100;
+  text-align: center;
+}
+
+.description {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-weight: 200;
+  text-align: left;
+}
+
+.links-collection {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  margin-top: 25px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.site-link.w--current {
+  width: auto;
+  min-width: 45%;
+  padding: 10px;
+  -webkit-transition: background-color 600ms ease-in;
+  transition: background-color 600ms ease-in;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+}
+
+.site-link.w--current:hover {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  background-color: rgba(0, 0, 0, .25);
+  color: #fff;
+}
+
+@media (max-width: 479px) {
+  .name {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+
